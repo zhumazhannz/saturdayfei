@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+backup/
+# сгенерированные записи экспериментов (~340 МБ, пересоздаются: python tools/experiments.py)
+pcaps/experiments/
+# отчёты по своим записям трафика — в них видны посещённые сайты
+/reports/
+/report.html
+*.etl
+*.pcapng
+dga/data/top-1m.csv

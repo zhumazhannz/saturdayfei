@@ -1,0 +1,59 @@
+Тест: 39837 доменов (20000 DGA), скорость: 14,842 доменов/с
+Random Forest:       {'precision': 0.9248, 'recall': 0.9075, 'f1': 0.9161} FPR 0.0744 ROC-AUC 0.9757
+Порог энтропии 3.0:  {'precision': 0.6843, 'recall': 0.6935, 'f1': 0.6889} FPR 0.3226
+RF + белый список:   {'precision': 0.9256, 'recall': 0.9075, 'f1': 0.9165} FPR 0.0736
+
+По семействам (доля, помеченная как DGA):
+family
+alureon         0.9925
+banjori         1.0000
+bedep           0.9950
+ccleaner        1.0000
+chinad          1.0000
+corebot         0.9950
+cryptolocker    0.9950
+dircrypt        0.9900
+dyre            1.0000
+fobber_v1       1.0000
+fobber_v2       0.9925
+gozi_gpl        0.7150
+gozi_luther     0.8075
+gozi_nasa       0.7375
+gozi_rfc4343    0.7550
+kraken_v1       0.9775
+kraken_v2       0.9725
+legit_tranco    0.0775
+legit_umudga    0.0454
+locky           0.9825
+matsnu          0.8025
+murofet_v1      1.0000
+murofet_v2      0.9975
+murofet_v3      1.0000
+necurs          0.9825
+nymaim          0.7625
+padcrypt        0.9900
+pizd            0.7225
+proslikefan     0.9125
+pushdo          0.8875
+pykspa          0.9050
+pykspa_noise    0.9225
+qadars          1.0000
+qakbot          0.9850
+ramdo           1.0000
+ramnit          0.9975
+ranbyus_v1      1.0000
+ranbyus_v2      1.0000
+rovnix          0.9750
+shiotob         0.9975
+simda           0.8200
+sisron          1.0000
+suppobox_1      0.6400
+suppobox_2      0.0575
+suppobox_3      0.9325
+symmi           0.9050
+tempedreve      0.9375
+tinba           1.0000
+vawtrak_v1      0.9200
+vawtrak_v2      0.8175
+vawtrak_v3      0.6000
+zeus-newgoz     1.0000

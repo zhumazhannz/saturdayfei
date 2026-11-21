@@ -1,0 +1,478 @@
+{
+  "E1": {
+    "scenarios": 50,
+    "seconds": 43.9,
+    "hybrid_infected": {
+      "recall": 1.0,
+      "fpr": 0.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "tp": 50,
+      "fp": 0,
+      "n_pos": 50,
+      "n_neg": 450
+    },
+    "hybrid_flagged": {
+      "recall": 1.0,
+      "fpr": 0.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "tp": 50,
+      "fp": 0,
+      "n_pos": 50,
+      "n_neg": 450
+    },
+    "dga_only": {
+      "recall": 0.98,
+      "fpr": 0.0,
+      "precision": 1.0,
+      "f1": 0.9899,
+      "tp": 49,
+      "fp": 0,
+      "n_pos": 50,
+      "n_neg": 450
+    },
+    "behavior_only": {
+      "recall": 1.0,
+      "fpr": 0.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "tp": 50,
+      "fp": 0,
+      "n_pos": 50,
+      "n_neg": 450
+    },
+    "entropy_baseline": {
+      "recall": 1.0,
+      "fpr": 0.9689,
+      "precision": 0.1029,
+      "f1": 0.1866,
+      "tp": 50,
+      "fp": 436,
+      "n_pos": 50,
+      "n_neg": 450
+    },
+    "updater": {
+      "n": 50,
+      "flagged": 50,
+      "infected": 0,
+      "mean_risk": 0.54
+    },
+    "clean_risk_p95": 0.0,
+    "by_kind": {
+      "dictionary": 1.0,
+      "random": 1.0
+    },
+    "bot_risk_by_family": {
+      "alureon": {
+        "risk": 0.969,
+        "dga": 0.999,
+        "beh": 0.94
+      },
+      "banjori": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      },
+      "bedep": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      },
+      "ccleaner": {
+        "risk": 0.969,
+        "dga": 0.999,
+        "beh": 0.94
+      },
+      "chinad": {
+        "risk": 0.969,
+        "dga": 0.999,
+        "beh": 0.94
+      },
+      "corebot": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      },
+      "cryptolocker": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      },
+      "dircrypt": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      },
+      "dyre": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      },
+      "fobber_v1": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      },
+      "fobber_v2": {
+        "risk": 0.969,
+        "dga": 0.999,
+        "beh": 0.94
+      },
+      "gozi_gpl": {
+        "risk": 0.966,
+        "dga": 0.97,
+        "beh": 0.94
+      },
+      "gozi_luther": {
+        "risk": 0.965,
+        "dga": 0.965,
+        "beh": 0.94
+      },
+      "gozi_nasa": {
+        "risk": 0.967,
+        "dga": 0.98,
+        "beh": 0.94
+      },
+      "gozi_rfc4343": {
+        "risk": 0.967,
+        "dga": 0.984,
+        "beh": 0.94
+      },
+      "kraken_v1": {
+        "risk": 0.969,
+        "dga": 0.999,
+        "beh": 0.94
+      },
+      "kraken_v2": {
+        "risk": 0.969,
+        "dga": 0.999,
+        "beh": 0.94
+      },
+      "locky": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      },
+      "matsnu": {
+        "risk": 0.958,
+        "dga": 0.905,
+        "beh": 0.94
+      },
+      "murofet_v1": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      },
+      "murofet_v2": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      },
+      "murofet_v3": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      },
+      "necurs": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      },
+      "nymaim": {
+        "risk": 0.963,
+        "dga": 0.95,
+        "beh": 0.94
+      },
+      "padcrypt": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      },
+      "pizd": {
+        "risk": 0.944,
+        "dga": 0.793,
+        "beh": 0.94
+      },
+      "proslikefan": {
+        "risk": 0.969,
+        "dga": 0.998,
+        "beh": 0.94
+      },
+      "pushdo": {
+        "risk": 0.969,
+        "dga": 0.998,
+        "beh": 0.94
+      },
+      "pykspa": {
+        "risk": 0.969,
+        "dga": 0.999,
+        "beh": 0.94
+      },
+      "pykspa_noise": {
+        "risk": 0.969,
+        "dga": 0.999,
+        "beh": 0.94
+      },
+      "qadars": {
+        "risk": 0.969,
+        "dga": 0.999,
+        "beh": 0.94
+      },
+      "qakbot": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      },
+      "ramdo": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      },
+      "ramnit": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      },
+      "ranbyus_v1": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      },
+      "ranbyus_v2": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      },
+      "rovnix": {
+        "risk": 0.966,
+        "dga": 0.974,
+        "beh": 0.94
+      },
+      "shiotob": {
+        "risk": 0.969,
+        "dga": 0.999,
+        "beh": 0.94
+      },
+      "simda": {
+        "risk": 0.969,
+        "dga": 0.996,
+        "beh": 0.94
+      },
+      "sisron": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      },
+      "suppobox_1": {
+        "risk": 0.942,
+        "dga": 0.782,
+        "beh": 0.94
+      },
+      "suppobox_2": {
+        "risk": 0.926,
+        "dga": 0.649,
+        "beh": 0.94
+      },
+      "suppobox_3": {
+        "risk": 0.956,
+        "dga": 0.894,
+        "beh": 0.94
+      },
+      "symmi": {
+        "risk": 0.969,
+        "dga": 0.999,
+        "beh": 0.94
+      },
+      "tempedreve": {
+        "risk": 0.969,
+        "dga": 0.999,
+        "beh": 0.94
+      },
+      "tinba": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      },
+      "vawtrak_v1": {
+        "risk": 0.969,
+        "dga": 0.998,
+        "beh": 0.94
+      },
+      "vawtrak_v2": {
+        "risk": 0.969,
+        "dga": 0.995,
+        "beh": 0.94
+      },
+      "vawtrak_v3": {
+        "risk": 0.967,
+        "dga": 0.984,
+        "beh": 0.94
+      },
+      "zeus-newgoz": {
+        "risk": 0.969,
+        "dga": 1.0,
+        "beh": 0.94
+      }
+    }
+  },
+  "E2": {
+    "hybrid_infected": {
+      "recall": 0.9167,
+      "fpr": 0.0,
+      "precision": 1.0,
+      "f1": 0.9565,
+      "tp": 11,
+      "fp": 0,
+      "n_pos": 12,
+      "n_neg": 120
+    },
+    "hybrid_flagged": {
+      "recall": 1.0,
+      "fpr": 0.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "tp": 12,
+      "fp": 0,
+      "n_pos": 12,
+      "n_neg": 120
+    },
+    "dga_only": {
+      "recall": 0.6667,
+      "fpr": 0.0,
+      "precision": 1.0,
+      "f1": 0.8,
+      "tp": 8,
+      "fp": 0,
+      "n_pos": 12,
+      "n_neg": 120
+    },
+    "behavior_only": {
+      "recall": 0.4167,
+      "fpr": 0.0,
+      "precision": 1.0,
+      "f1": 0.5882,
+      "tp": 5,
+      "fp": 0,
+      "n_pos": 12,
+      "n_neg": 120
+    },
+    "bot_risk_by_family": {
+      "necurs": {
+        "risk": 0.953,
+        "dga": 0.999,
+        "beh": 0.85
+      },
+      "cryptolocker": {
+        "risk": 0.945,
+        "dga": 0.999,
+        "beh": 0.807
+      },
+      "ramnit": {
+        "risk": 0.873,
+        "dga": 0.999,
+        "beh": 0.411
+      },
+      "dyre": {
+        "risk": 0.954,
+        "dga": 0.999,
+        "beh": 0.854
+      },
+      "kraken_v1": {
+        "risk": 0.837,
+        "dga": 0.994,
+        "beh": 0.227
+      },
+      "pykspa": {
+        "risk": 0.855,
+        "dga": 0.987,
+        "beh": 0.346
+      },
+      "gozi_gpl": {
+        "risk": 0.907,
+        "dga": 0.847,
+        "beh": 0.79
+      },
+      "matsnu": {
+        "risk": 0.87,
+        "dga": 0.731,
+        "beh": 0.762
+      },
+      "suppobox_1": {
+        "risk": 0.626,
+        "dga": 0.551,
+        "beh": 0.369
+      },
+      "suppobox_2": {
+        "risk": 0.509,
+        "dga": 0.023,
+        "beh": 0.556
+      },
+      "nymaim": {
+        "risk": 0.785,
+        "dga": 0.838,
+        "beh": 0.387
+      },
+      "pizd": {
+        "risk": 0.805,
+        "dga": 0.713,
+        "beh": 0.608
+      }
+    }
+  },
+  "E3": {
+    "packets": 240965,
+    "size_mb": 85.2,
+    "hosts": 105,
+    "dns_queries": 30286,
+    "domains": 16895,
+    "timings": {
+      "parse": 3.9,
+      "dga": 0.57,
+      "behavior": 3.55,
+      "fusion": 0.43,
+      "total": 8.45
+    },
+    "packets_per_sec": 28520,
+    "parse_packets_per_sec": 61713,
+    "detection": {
+      "recall": 1.0,
+      "fpr": 0.0,
+      "precision": 1.0,
+      "f1": 1.0,
+      "tp": 5,
+      "fp": 0,
+      "n_pos": 5,
+      "n_neg": 99
+    }
+  },
+  "E4": {
+    "test7-malicious.pcap": [
+      {
+        "ip": "192.168.2.16",
+        "risk": 0.7941,
+        "verdict": "Вероятно заражён",
+        "evidence": [
+          "NXDOMAIN 4 из 36 запросов (11%)",
+          "соединения с 251 внешними IP без DNS-запроса",
+          "564 соединений на нестандартные порты",
+          "сканирование: безответные попытки соединения с 133 внешними IP (порты 23, 8080, 2323)"
+        ]
+      },
+      {
+        "ip": "192.168.2.1",
+        "risk": 0.0,
+        "verdict": "Чистый",
+        "evidence": []
+      }
+    ],
+    "test8-malicious.pcap": [
+      {
+        "ip": "192.168.1.247",
+        "risk": 0.0,
+        "verdict": "Чистый",
+        "evidence": []
+      }
+    ]
+  }
+}
